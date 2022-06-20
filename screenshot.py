@@ -6,6 +6,6 @@ def screen_shot():
         myScreenshot = pyautogui.screenshot()
         myScreenshot.save(f'Pictures/oringinal/{i}.png')
         sleep(2)
-#
+
 if __name__ == '__main__':
     screen_shot()
